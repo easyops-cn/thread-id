@@ -43,7 +43,7 @@ extern crate syscall;
 /// different number.
 #[inline]
 pub fn get() -> usize {
-    get_internal()
+    0
 }
 
 #[cfg(unix)]
